@@ -1,0 +1,671 @@
+
+                                     name
+1                         chromosome_name
+2                                   start
+3                                     end
+4                              band_start
+5                                band_end
+6                            marker_start
+7                              marker_end
+8                           encode_region
+9                                  strand
+10                     chromosomal_region
+11                              with_ccds
+12                            with_chembl
+13          with_clone_based_ensembl_gene
+14    with_clone_based_ensembl_transcript
+15                            with_dbass3
+16                            with_dbass5
+17                 with_ens_hs_transcript
+18                with_ens_hs_translation
+19             with_entrezgene_trans_name
+20                              with_embl
+21                      with_arrayexpress
+22                            with_genedb
+23                                with_go
+24                        with_goslim_goa
+25                              with_hgnc
+26                   with_hgnc_trans_name
+27                               with_hpa
+28                        with_protein_id
+29                       with_kegg_enzyme
+30                      with_ens_lrg_gene
+31                with_ens_lrg_transcript
+32                            with_merops
+33                           with_metacyc
+34                          with_mim_gene
+35                        with_mim_morbid
+36                           with_mirbase
+37                with_mirbase_trans_name
+38                        with_entrezgene
+39                               with_pdb
+40                          with_reactome
+41                     with_reactome_gene
+42               with_reactome_transcript
+43                       with_refseq_mrna
+44             with_refseq_mrna_predicted
+45                      with_refseq_ncrna
+46            with_refseq_ncrna_predicted
+47                    with_refseq_peptide
+48          with_refseq_peptide_predicted
+49                              with_rfam
+50                   with_rfam_trans_name
+51                        with_rnacentral
+52                              with_ucsc
+53                           with_unigene
+54                           with_uniparc
+55                        with_uniprot_gn
+56                  with_uniprotswissprot
+57                   with_uniprotsptrembl
+58                          with_wikigene
+59                        ensembl_gene_id
+60                ensembl_gene_id_version
+61                  ensembl_transcript_id
+62          ensembl_transcript_id_version
+63                     ensembl_peptide_id
+64             ensembl_peptide_id_version
+65                        ensembl_exon_id
+66                     external_gene_name
+67               external_transcript_name
+68                                   ccds
+69                                 chembl
+70               clone_based_ensembl_gene
+71         clone_based_ensembl_transcript
+72                            dbass3_name
+73                              dbass3_id
+74                            dbass5_name
+75                              dbass5_id
+76                      ens_hs_transcript
+77                     ens_hs_translation
+78                  entrezgene_trans_name
+79                                   embl
+80                           arrayexpress
+81                                 genedb
+82                                     go
+83                             goslim_goa
+84                                hgnc_id
+85                            hgnc_symbol
+86                        hgnc_trans_name
+87                                    hpa
+88                             protein_id
+89                            kegg_enzyme
+90                           ens_lrg_gene
+91                     ens_lrg_transcript
+92                                 merops
+93                                metacyc
+94                     mim_gene_accession
+95                   mim_morbid_accession
+96                      mirbase_accession
+97                             mirbase_id
+98                     mirbase_trans_name
+99                             entrezgene
+100                                   pdb
+101                              reactome
+102                         reactome_gene
+103                   reactome_transcript
+104                           refseq_mrna
+105                 refseq_mrna_predicted
+106                          refseq_ncrna
+107                refseq_ncrna_predicted
+108                        refseq_peptide
+109              refseq_peptide_predicted
+110                                  rfam
+111                       rfam_trans_name
+112                            rnacentral
+113                                  ucsc
+114                               unigene
+115                               uniparc
+116                            uniprot_gn
+117                      uniprotswissprot
+118                       uniprotsptrembl
+119                         wikigene_name
+120                           wikigene_id
+121                     with_affy_hc_g110
+122                    with_affy_hg_focus
+123                    with_affy_hg_u133a
+124                  with_affy_hg_u133a_2
+125                    with_affy_hg_u133b
+126              with_affy_hg_u133_plus_2
+127                     with_affy_hg_u95a
+128                   with_affy_hg_u95av2
+129                     with_affy_hg_u95b
+130                     with_affy_hg_u95c
+131                     with_affy_hg_u95d
+132                     with_affy_hg_u95e
+133                     with_affy_hta_2_0
+134              with_affy_huex_1_0_st_v2
+135                    with_affy_hugenefl
+136            with_affy_hugene_1_0_st_v1
+137            with_affy_hugene_2_0_st_v1
+138                   with_affy_primeview
+139                    with_affy_u133_x3p
+140                  with_agilent_cgh_44b
+141                  with_agilent_gpl6848
+142    with_agilent_sureprint_g3_ge_8x60k
+143 with_agilent_sureprint_g3_ge_8x60k_v2
+144     with_agilent_wholegenome_4x44k_v1
+145     with_agilent_wholegenome_4x44k_v2
+146                with_codelink_codelink
+147           with_illumina_humanht_12_v3
+148           with_illumina_humanht_12_v4
+149           with_illumina_humanref_8_v3
+150            with_illumina_humanwg_6_v1
+151            with_illumina_humanwg_6_v2
+152            with_illumina_humanwg_6_v3
+153                 with_phalanx_onearray
+154                          affy_hc_g110
+155                         affy_hg_focus
+156                         affy_hg_u133a
+157                       affy_hg_u133a_2
+158                         affy_hg_u133b
+159                   affy_hg_u133_plus_2
+160                          affy_hg_u95a
+161                        affy_hg_u95av2
+162                          affy_hg_u95b
+163                          affy_hg_u95c
+164                          affy_hg_u95d
+165                          affy_hg_u95e
+166                          affy_hta_2_0
+167                   affy_huex_1_0_st_v2
+168                         affy_hugenefl
+169                 affy_hugene_1_0_st_v1
+170                 affy_hugene_2_0_st_v1
+171                        affy_primeview
+172                         affy_u133_x3p
+173                       agilent_cgh_44b
+174                       agilent_gpl6848
+175         agilent_sureprint_g3_ge_8x60k
+176      agilent_sureprint_g3_ge_8x60k_v2
+177          agilent_wholegenome_4x44k_v1
+178          agilent_wholegenome_4x44k_v2
+179                     codelink_codelink
+180                illumina_humanht_12_v3
+181                illumina_humanht_12_v4
+182                illumina_humanref_8_v3
+183                 illumina_humanwg_6_v1
+184                 illumina_humanwg_6_v2
+185                 illumina_humanwg_6_v3
+186                      phalanx_onearray
+187         transcript_count_greater_than
+188            transcript_count_less_than
+189                               biotype
+190                    transcript_biotype
+191                                source
+192                     transcript_source
+193                        transcript_tsl
+194              transcript_gencode_basic
+195                     transcript_appris
+196                 phenotype_description
+197                      phenotype_source
+198                        go_parent_term
+199                        go_parent_name
+200                      go_evidence_code
+201                 with_hsapiens_paralog
+202                   with_vpacos_homolog
+203                 with_pformosa_homolog
+204               with_cpalliatus_homolog
+205            with_acarolinensis_homolog
+206            with_dnovemcinctus_homolog
+207                   with_rbieti_homolog
+208             with_sboliviensis_homolog
+209                with_ppaniscus_homolog
+210                  with_caperea_homolog
+211               with_ogarnettii_homolog
+212            with_cintestinalis_homolog
+213                with_csavignyi_homolog
+214                 with_celegans_homolog
+215               with_ccapucinus_homolog
+216                   with_fcatus_homolog
+217               with_amexicanus_homolog
+218                  with_ggallus_homolog
+219             with_ptroglodytes_homolog
+220               with_cchok1gshd_homolog
+221                  with_ccrigri_homolog
+222                with_psinensis_homolog
+223                  with_gmorhua_homolog
+224               with_lchalumnae_homolog
+225               with_pcoquereli_homolog
+226                  with_btaurus_homolog
+227            with_mfascicularis_homolog
+228              with_fdamarensis_homolog
+229                   with_odegus_homolog
+230              with_cfamiliaris_homolog
+231               with_ttruncatus_homolog
+232             with_mleucophaeus_homolog
+233           with_aplatyrhynchos_homolog
+234                with_lafricana_homolog
+235                    with_mfuro_homolog
+236              with_falbicollis_homolog
+237            with_dmelanogaster_homolog
+238                with_trubripes_homolog
+239              with_nleucogenys_homolog
+240                 with_mauratus_homolog
+241               with_rroxellana_homolog
+242                 with_ggorilla_homolog
+243               with_cporcellus_homolog
+244               with_eeuropaeus_homolog
+245                with_ecaballus_homolog
+246                with_pcapensis_homolog
+247                   with_dordii_homolog
+248                 with_pmarinus_homolog
+249                 with_jjaculus_homolog
+250                with_etelfairi_homolog
+251                with_clanigera_homolog
+252               with_anancymaae_homolog
+253                 with_mmulatta_homolog
+254                 with_cjacchus_homolog
+255                 with_olatipes_homolog
+256                with_pvampyrus_homolog
+257               with_mlucifugus_homolog
+258                with_mmusculus_homolog
+259                 with_mmurinus_homolog
+260                with_mspreteij_homolog
+261                  with_hfemale_homolog
+262                    with_hmale_homolog
+263                 with_pbairdii_homolog
+264                  with_panubis_homolog
+265               with_mdomestica_homolog
+266                  with_pabelii_homolog
+267             with_amelanoleuca_homolog
+268                  with_sscrofa_homolog
+269              with_mnemestrina_homolog
+270                with_oprinceps_homolog
+271               with_xmaculatus_homolog
+272                with_oanatinus_homolog
+273             with_mochrogaster_homolog
+274               with_ocuniculus_homolog
+275              with_rnorvegicus_homolog
+276                  with_mcaroli_homolog
+277              with_scerevisiae_homolog
+278                   with_oaries_homolog
+279                 with_saraneus_homolog
+280                  with_mpahari_homolog
+281               with_choffmanni_homolog
+282                    with_catys_homolog
+283                with_loculatus_homolog
+284        with_itridecemlineatus_homolog
+285               with_gaculeatus_homolog
+286                with_csyrichta_homolog
+287                with_sharrisii_homolog
+288            with_tnigroviridis_homolog
+289               with_oniloticus_homolog
+290               with_tbelangeri_homolog
+291               with_mgallopavo_homolog
+292                  with_ngalili_homolog
+293                 with_csabaeus_homolog
+294                 with_neugenii_homolog
+295              with_xtropicalis_homolog
+296                 with_tguttata_homolog
+297                   with_drerio_homolog
+298                         with_interpro
+299                           with_family
+300                     with_sifts_import
+301                           with_gene3d
+302                            with_hamap
+303                           with_ncoils
+304                       with_hmmpanther
+305                             with_pfam
+306                            with_pirsf
+307                           with_prints
+308                      with_blastprodom
+309                      with_scanprosite
+310                           with_pfscan
+311                              with_seg
+312                          with_signalp
+313                            with_smart
+314                      with_superfamily
+315                          with_tigrfam
+316                            with_tmhmm
+317                              interpro
+318                                family
+319                                gene3d
+320                                 hamap
+321                            hmmpanther
+322                                  pfam
+323                                 pirsf
+324                                prints
+325                           blastprodom
+326                           scanprosite
+327                                pfscan
+328                                 smart
+329                           superfamily
+330                               tigrfam
+331            germ_line_variation_source
+332              somatic_variation_source
+333                    with_validated_snp
+334                   so_mini_parent_name
+                                                         description
+1                                           Chromosome/scaffold name
+2                                                              Start
+3                                                                End
+4                                                         Band Start
+5                                                           Band End
+6                                                       Marker Start
+7                                                         Marker End
+8                                                      Encode region
+9                                                             Strand
+10                            e.g. 1:100:10000:-1, 1:100000:200000:1
+11                                                   With CCDS ID(s)
+12                                                 With ChEMBL ID(s)
+13                             With Clone-based (Ensembl) gene ID(s)
+14                       With Clone-based (Ensembl) transcript ID(s)
+15                   With DataBase of Aberrant 3' Splice Sites ID(s)
+16                   With DataBase of Aberrant 5' Splice Sites ID(s)
+17                               With Ensembl Human Transcript ID(s)
+18                              With Ensembl Human Translation ID(s)
+19                             With EntrezGene transcript name ID(s)
+20                            With European Nucleotide Archive ID(s)
+21                                       With Expression Atlas ID(s)
+22                                                 With GeneDB ID(s)
+23                                                     With GO ID(s)
+24                                             With GOSlim GOA ID(s)
+25                                            With HGNC Symbol ID(s)
+26                                   With HGNC transcript name ID(s)
+27                                    With Human Protein Atlas ID(s)
+28                                       With INSDC protein ID ID(s)
+29                                With KEGG Pathway and Enzyme ID(s)
+30                            With LRG display in Ensembl gene ID(s)
+31                      With LRG display in Ensembl transcript ID(s)
+32                        With MEROPS - the Peptidase Database ID(s)
+33                                                With MetaCyc ID(s)
+34                                               With MIM gene ID(s)
+35                                             With MIM morbid ID(s)
+36                                                With miRBase ID(s)
+37                                With miRBase transcript name ID(s)
+38                                              With NCBI gene ID(s)
+39                                                    With PDB ID(s)
+40                                               With Reactome ID(s)
+41                                          With Reactome gene ID(s)
+42                                    With Reactome transcript ID(s)
+43                                            With RefSeq mRNA ID(s)
+44                                  With RefSeq mRNA predicted ID(s)
+45                                           With RefSeq ncRNA ID(s)
+46                                 With RefSeq ncRNA predicted ID(s)
+47                                         With RefSeq peptide ID(s)
+48                               With RefSeq peptide predicted ID(s)
+49                                                   With RFAM ID(s)
+50                                   With RFAM transcript name ID(s)
+51                                             With RNAcentral ID(s)
+52                                         With UCSC Stable ID ID(s)
+53                                                With UniGene ID(s)
+54                                                With UniParc ID(s)
+55                                    With UniProtKB Gene Name ID(s)
+56                                   With UniProtKB/Swiss-Prot ID(s)
+57                                       With UniProtKB/TrEMBL ID(s)
+58                                               With WikiGene ID(s)
+59                          Gene stable ID(s) [e.g. ENSG00000000003]
+60          Gene stable ID(s) with version [e.g. ENSG00000000003.14]
+61                    Transcript stable ID(s) [e.g. ENST00000000233]
+62     Transcript stable ID(s) with version [e.g. ENST00000000233.9]
+63                       Protein stable ID(s) [e.g. ENSP00000000233]
+64        Protein stable ID(s) with version [e.g. ENSP00000000233.5]
+65                                 Exon ID(s) [e.g. ENSE00000327880]
+66                                        Gene Name(s) [e.g. MIR628]
+67                              Transcript Name(s) [e.g. MIR628-201]
+68                                          CCDS ID(s) [e.g. CCDS10]
+69                                 ChEMBL ID(s) [e.g. CHEMBL1075092]
+70                Clone-based (Ensembl) gene ID(s) [e.g. AB015752.1]
+71      Clone-based (Ensembl) transcript ID(s) [e.g. AB015752.1-201]
+72         DataBase of Aberrant 3' Splice Sites name(s) [e.g. ABCC8]
+73               DataBase of Aberrant 3' Splice Sites ID(s) [e.g. 1]
+74         DataBase of Aberrant 5' Splice Sites name(s) [e.g. ABCD1]
+75               DataBase of Aberrant 5' Splice Sites ID(s) [e.g. 1]
+76             Ensembl Human Transcript ID(s) [e.g. ENST00000075430]
+77            Ensembl Human Translation ID(s) [e.g. ENSP00000075430]
+78                  EntrezGene transcript name ID(s) [e.g. AA06-201]
+79                   European Nucleotide Archive ID(s) [e.g. A06800]
+80                     Expression Atlas ID(s) [e.g. ENSG00000000003]
+81                              GeneDB ID(s) [e.g. Smp_009580.1:pep]
+82                                        GO ID(s) [e.g. GO:0000002]
+83                                GOSlim GOA ID(s) [e.g. GO:0000003]
+84                                        HGNC ID(s) [e.g. HGNC:100]
+85                                        HGNC symbol(s) [e.g. A1BG]
+86                        HGNC transcript name ID(s) [e.g. A1BG-201]
+87                                Human Protein Atlas ID(s) [e.g. 1]
+88                               INSDC protein ID(s) [e.g. AAA02487]
+89                KEGG Pathway and Enzyme ID(s) [e.g. 00010+1.1.1.1]
+90                    LRG display in Ensembl gene ID(s) [e.g. LRG_1]
+91         LRG display in Ensembl transcript ID(s) [e.g. LRG_1008t1]
+92              MEROPS - the Peptidase Database ID(s) [e.g. A01.001]
+93                                        MetaCyc ID(s) [e.g. PWY-0]
+94                               MIM gene accession(s) [e.g. 100640]
+95                             MIM morbid accession(s) [e.g. 100100]
+96                             miRBase accession(s) [e.g. MI0000060]
+97                                 miRBase ID(s) [e.g. hsa-let-7a-1]
+98           miRBase transcript name ID(s) [e.g. hsa-mir-1253.1-201]
+99                                          NCBI gene ID(s) [e.g. 1]
+100                                            PDB ID(s) [e.g. 10GS]
+101                               Reactome ID(s) [e.g. R-HSA-109581]
+102                          Reactome gene ID(s) [e.g. R-HSA-109581]
+103                   Reactome transcript ID(s) [e.g. R-HSA-1168372]
+104                               RefSeq mRNA ID(s) [e.g. NM_000014]
+105                  RefSeq mRNA predicted ID(s) [e.g. XM_003118719]
+106                              RefSeq ncRNA ID(s) [e.g. NR_000005]
+107                 RefSeq ncRNA predicted ID(s) [e.g. XR_001731188]
+108                            RefSeq peptide ID(s) [e.g. NP_000005]
+109               RefSeq peptide predicted ID(s) [e.g. XP_003118767]
+110                                        RFAM ID(s) [e.g. RF00001]
+111                  RFAM transcript name ID(s) [e.g. 5S_rRNA.1-201]
+112                            RNAcentral ID(s) [e.g. URS0000000055]
+113                              UCSC Stable ID(s) [e.g. uc001aak.4]
+114                                   UniGene ID(s) [e.g. Hs.100057]
+115                               UniParc ID(s) [e.g. UPI000000003C]
+116                      UniProtKB Gene Name ID(s) [e.g. A0A023T6R1]
+117                     UniProtKB/Swiss-Prot ID(s) [e.g. A0A075B6H9]
+118                         UniProtKB/TrEMBL ID(s) [e.g. A0A023T6R1]
+119                                     WikiGene name(s) [e.g. A1BG]
+120                                          WikiGene ID(s) [e.g. 1]
+121                                    With AFFY HC G110 probe ID(s)
+122                                   With AFFY HG Focus probe ID(s)
+123                                   With AFFY HG U133A probe ID(s)
+124                                 With AFFY HG U133A 2 probe ID(s)
+125                                   With AFFY HG U133B probe ID(s)
+126                             With AFFY HG U133 Plus 2 probe ID(s)
+127                                    With AFFY HG U95A probe ID(s)
+128                                  With AFFY HG U95Av2 probe ID(s)
+129                                    With AFFY HG U95B probe ID(s)
+130                                    With AFFY HG U95C probe ID(s)
+131                                    With AFFY HG U95D probe ID(s)
+132                                    With AFFY HG U95E probe ID(s)
+133                                    With AFFY HTA 2 0 probe ID(s)
+134                             With AFFY HuEx 1 0 st v2 probe ID(s)
+135                                   With AFFY HuGeneFL probe ID(s)
+136                           With AFFY HuGene 1 0 st v1 probe ID(s)
+137                           With AFFY HuGene 2 0 st v1 probe ID(s)
+138                                  With AFFY PrimeView probe ID(s)
+139                                   With AFFY U133 X3P probe ID(s)
+140                                 With AGILENT CGH 44b probe ID(s)
+141                                 With AGILENT GPL6848 probe ID(s)
+142                   With AGILENT SurePrint G3 GE 8x60k probe ID(s)
+143                With AGILENT SurePrint G3 GE 8x60k v2 probe ID(s)
+144                    With AGILENT WholeGenome 4x44k v1 probe ID(s)
+145                    With AGILENT WholeGenome 4x44k v2 probe ID(s)
+146                               With CODELINK CODELINK probe ID(s)
+147                          With ILLUMINA HumanHT 12 V3 probe ID(s)
+148                          With ILLUMINA HumanHT 12 V4 probe ID(s)
+149                          With ILLUMINA HumanRef 8 V3 probe ID(s)
+150                           With ILLUMINA HumanWG 6 V1 probe ID(s)
+151                           With ILLUMINA HumanWG 6 V2 probe ID(s)
+152                           With ILLUMINA HumanWG 6 V3 probe ID(s)
+153                                With PHALANX OneArray probe ID(s)
+154                         AFFY HC G110 probe ID(s) [e.g. 266_s_at]
+155                     AFFY HG Focus probe ID(s) [e.g. 212481_s_at]
+156                       AFFY HG U133A probe ID(s) [e.g. 211600_at]
+157                     AFFY HG U133A 2 probe ID(s) [e.g. 211600_at]
+158                       AFFY HG U133B probe ID(s) [e.g. 224321_at]
+159              AFFY HG U133 Plus 2 probe ID(s) [e.g. 1553551_s_at]
+160                         AFFY HG U95A probe ID(s) [e.g. 33866_at]
+161                       AFFY HG U95Av2 probe ID(s) [e.g. 33866_at]
+162                       AFFY HG U95B probe ID(s) [e.g. 48794_s_at]
+163                         AFFY HG U95C probe ID(s) [e.g. 66888_at]
+164                         AFFY HG U95D probe ID(s) [e.g. 70806_at]
+165                         AFFY HG U95E probe ID(s) [e.g. 88289_at]
+166                    AFFY HTA 2 0 probe ID(s) [e.g. TC04001102.hg]
+167                   AFFY HuEx 1 0 st v2 probe ID(s) [e.g. 4037584]
+168                       AFFY HuGeneFL probe ID(s) [e.g. Z70759_at]
+169                 AFFY HuGene 1 0 st v1 probe ID(s) [e.g. 8165644]
+170                AFFY HuGene 2 0 st v1 probe ID(s) [e.g. 17100641]
+171                  AFFY PrimeView probe ID(s) [e.g. 11761516_x_at]
+172         AFFY U133 X3P probe ID(s) [e.g. Hs2Affx.1.29.S1_3p_s_at]
+173                  AGILENT CGH 44b probe ID(s) [e.g. A_14_P137603]
+174                  AGILENT GPL6848 probe ID(s) [e.g. A_24_P179336]
+175    AGILENT SurePrint G3 GE 8x60k probe ID(s) [e.g. A_24_P182122]
+176 AGILENT SurePrint G3 GE 8x60k v2 probe ID(s) [e.g. A_24_P182122]
+177     AGILENT WholeGenome 4x44k v1 probe ID(s) [e.g. A_24_P179336]
+178     AGILENT WholeGenome 4x44k v2 probe ID(s) [e.g. A_24_P182122]
+179                    CODELINK CODELINK probe ID(s) [e.g. GE558559]
+180           ILLUMINA HumanHT 12 V3 probe ID(s) [e.g. ILMN_1820043]
+181           ILLUMINA HumanHT 12 V4 probe ID(s) [e.g. ILMN_3308961]
+182           ILLUMINA HumanRef 8 V3 probe ID(s) [e.g. ILMN_1694058]
+183              ILLUMINA HumanWG 6 V1 probe ID(s) [e.g. 0005910053]
+184            ILLUMINA HumanWG 6 V2 probe ID(s) [e.g. ILMN_1820043]
+185            ILLUMINA HumanWG 6 V3 probe ID(s) [e.g. ILMN_1820043]
+186                PHALANX OneArray probe ID(s) [e.g. PH_hs_0033947]
+187                                              Transcript count >=
+188                                              Transcript count <=
+189                                                             Type
+190                                                  Transcript Type
+191                                                    Source (gene)
+192                                              Source (transcript)
+193                                   Transcript Support Level (TSL)
+194                                         GENCODE basic annotation
+195                                                APPRIS annotation
+196                                            Phenotype description
+197                                                 Phenotype source
+198                                            Parent term accession
+199                                                 Parent term name
+200                                                 GO Evidence code
+201                                           Paralogous Human Genes
+202                                         Orthologous Alpaca Genes
+203                                   Orthologous Amazon molly Genes
+204                                 Orthologous Angola colobus Genes
+205                                   Orthologous Anole lizard Genes
+206                                      Orthologous Armadillo Genes
+207                        Orthologous Black snub-nosed monkey Genes
+208                       Orthologous Bolivian squirrel monkey Genes
+209                                         Orthologous Bonobo Genes
+210                           Orthologous Brazilian guinea pig Genes
+211                                       Orthologous Bushbaby Genes
+212                                 Orthologous C.intestinalis Genes
+213                                     Orthologous C.savignyi Genes
+214                         Orthologous Caenorhabditis elegans Genes
+215                                       Orthologous Capuchin Genes
+216                                            Orthologous Cat Genes
+217                                      Orthologous Cave fish Genes
+218                                        Orthologous Chicken Genes
+219                                     Orthologous Chimpanzee Genes
+220                        Orthologous Chinese hamster CHOK1GS Genes
+221                         Orthologous Chinese hamster CriGri Genes
+222                       Orthologous Chinese softshell turtle Genes
+223                                            Orthologous Cod Genes
+224                                     Orthologous Coelacanth Genes
+225                              Orthologous Coquerel's sifaka Genes
+226                                            Orthologous Cow Genes
+227                            Orthologous Crab-eating macaque Genes
+228                                Orthologous Damara mole rat Genes
+229                                           Orthologous Degu Genes
+230                                            Orthologous Dog Genes
+231                                        Orthologous Dolphin Genes
+232                                          Orthologous Drill Genes
+233                                           Orthologous Duck Genes
+234                                       Orthologous Elephant Genes
+235                                         Orthologous Ferret Genes
+236                                     Orthologous Flycatcher Genes
+237                                       Orthologous Fruitfly Genes
+238                                           Orthologous Fugu Genes
+239                                         Orthologous Gibbon Genes
+240                                 Orthologous Golden Hamster Genes
+241                       Orthologous Golden snub-nosed monkey Genes
+242                                        Orthologous Gorilla Genes
+243                                     Orthologous Guinea Pig Genes
+244                                       Orthologous Hedgehog Genes
+245                                          Orthologous Horse Genes
+246                                          Orthologous Hyrax Genes
+247                                   Orthologous Kangaroo rat Genes
+248                                        Orthologous Lamprey Genes
+249                         Orthologous Lesser Egyptian jerboa Genes
+250                         Orthologous Lesser hedgehog tenrec Genes
+251                         Orthologous Long-tailed chinchilla Genes
+252                              Orthologous Ma's night monkey Genes
+253                                        Orthologous Macaque Genes
+254                                       Orthologous Marmoset Genes
+255                                         Orthologous Medaka Genes
+256                                        Orthologous Megabat Genes
+257                                       Orthologous Microbat Genes
+258                                          Orthologous Mouse Genes
+259                                    Orthologous Mouse Lemur Genes
+260                                Orthologous Mouse SPRET/EiJ Genes
+261                          Orthologous Naked mole-rat female Genes
+262                            Orthologous Naked mole-rat male Genes
+263                   Orthologous Northern American deer mouse Genes
+264                                   Orthologous Olive baboon Genes
+265                                        Orthologous Opossum Genes
+266                                      Orthologous Orangutan Genes
+267                                          Orthologous Panda Genes
+268                                            Orthologous Pig Genes
+269                             Orthologous Pig-tailed macaque Genes
+270                                           Orthologous Pika Genes
+271                                      Orthologous Platyfish Genes
+272                                       Orthologous Platypus Genes
+273                                   Orthologous Prairie vole Genes
+274                                         Orthologous Rabbit Genes
+275                                            Orthologous Rat Genes
+276                                   Orthologous Ryukyu mouse Genes
+277                       Orthologous Saccharomyces cerevisiae Genes
+278                                          Orthologous Sheep Genes
+279                                          Orthologous Shrew Genes
+280                                    Orthologous Shrew mouse Genes
+281                                          Orthologous Sloth Genes
+282                                 Orthologous Sooty mangabey Genes
+283                                    Orthologous Spotted gar Genes
+284                                       Orthologous Squirrel Genes
+285                                    Orthologous Stickleback Genes
+286                                        Orthologous Tarsier Genes
+287                                Orthologous Tasmanian devil Genes
+288                                      Orthologous Tetraodon Genes
+289                                        Orthologous Tilapia Genes
+290                                     Orthologous Tree Shrew Genes
+291                                         Orthologous Turkey Genes
+292         Orthologous Upper Galilee mountains blind mole rat Genes
+293                                     Orthologous Vervet-AGM Genes
+294                                        Orthologous Wallaby Genes
+295                                        Orthologous Xenopus Genes
+296                                    Orthologous Zebra Finch Genes
+297                                      Orthologous Zebrafish Genes
+298                                              With Interpro ID(s)
+299                                With Ensembl Protein Family ID(s)
+300                                           With PDB-ENSP mappings
+301                                                With Gene3D ID(s)
+302                                                 With HAMAP ID(s)
+303                                       With Coiled-coils (Ncoils)
+304                                            With hmmpanther ID(s)
+305                                           With Pfam domain ID(s)
+306                                          With PIRSF domain ID(s)
+307                                         With Prints domain ID(s)
+308                                           With blastprodom ID(s)
+309                                      With PROSITE patterns ID(s)
+310                                      With PROSITE profiles ID(s)
+311                                        With Low complexity (Seg)
+312                                     With Cleavage site (Signalp)
+313                                         With SMART domains ID(s)
+314                                   With Superfamily domains ID(s)
+315                                        With TIGRFAM domain ID(s)
+316                                       With Transmembrane helices
+317                                  Interpro ID(s) [e.g. IPR000001]
+318                Ensembl Protein Family ID(s) [e.g. PTHR10000_SF7]
+319                                   Gene3D ID(s) [e.g. 1.10.10.10]
+320                                      HAMAP ID(s) [e.g. MF_00001]
+321                                hmmpanther ID(s) [e.g. PTHR10000]
+322                                 Pfam domain ID(s) [e.g. PF00001]
+323                            PIRSF domain ID(s) [e.g. PIRSF000019]
+324                               Prints domain ID(s) [e.g. PR00001]
+325                                blastprodom ID(s) [e.g. PD000328]
+326                            PROSITE patterns ID(s) [e.g. PS00010]
+327                            PROSITE profiles ID(s) [e.g. PS01031]
+328                               SMART domains ID(s) [e.g. SM00002]
+329                         Superfamily domains ID(s) [e.g. 0034913]
+330                            TIGRFAM domain ID(s) [e.g. TIGR00002]
+331                limit to genes with germline variant data sources
+332                      limit to genes with somatic variant sources
+333                                      Variant supporting evidence
+334                                                 Parent term nam

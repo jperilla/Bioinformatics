@@ -1,0 +1,641 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Garcia" ,
+            first "Julie" ,
+            initials "J.P." } ,
+        affil
+          std {
+            affil "Johns Hopkins University" ,
+            div "Biotechnology" ,
+            city "Grand Junction" ,
+            sub "CO" ,
+            country "USA" ,
+            street "409 Stoneridge Ct." ,
+            email "jgarci58@jhu.edu" ,
+            phone "9077482554" ,
+            postal-code "81507" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Garcia" ,
+                  first "Julie" ,
+                  initials "J.P." } } } ,
+        affil
+          std {
+            affil "Johns Hopkins University" ,
+            div "Biotechnology" ,
+            city "Grand Junction" ,
+            sub "CO" ,
+            country "USA" ,
+            street "409 Stoneridge Ct." ,
+            postal-code "81507" } } ,
+      date
+        std {
+          year 2018 ,
+          month 1 ,
+          day 10 } } ,
+    subtype new ,
+    tool "Sequin 15.50 - MAC 386 on OS 10.6" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            genome genomic ,
+            org {
+              taxname "Rattus norvegicus" ,
+              common "Norway rat" ,
+              orgname {
+                lineage "cellular organisms; Eukaryota; Opisthokonta; Metazoa;
+ Eumetazoa; Bilateria; Deuterostomia; Chordata; Craniata; Vertebrata;
+ Gnathostomata; Teleostomi; Euteleostomi; Sarcopterygii; Dipnotetrapodomorpha;
+ Tetrapoda; Amniota; Mammalia; Theria; Eutheria; Boreoeutheria;
+ Euarchontoglires; Glires; Rodentia; Sciurognathi; Muroidea; Muridae; Murinae;
+ Rattus; Rattus norvegicus" ,
+                gcode 1 ,
+                div "ROD" } } } ,
+          pub {
+            pub {
+              pmid 3020052 ,
+              article {
+                title {
+                  name "The M1- and M2-type isozymes of rat pyruvate kinase
+ are produced from the same gene by alternative RNA splicing." } ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Noguchi" ,
+                            first "T" ,
+                            initials "T." } } } ,
+                  affil
+                    std {
+                      affil "Johns Hopkins University" ,
+                      div "Biotechnology" ,
+                      city "Grand Junction" ,
+                      sub "CO" ,
+                      country "USA" ,
+                      street "409 Stoneridge Ct." ,
+                      postal-code "81507" } } ,
+                from
+                  journal {
+                    title {
+                      jta "Journal of Biological Chemistry" } ,
+                    imp {
+                      date
+                        std {
+                          year 1986 ,
+                          month 10 } ,
+                      volume "29" ,
+                      issue "261" ,
+                      pages "13807-13812" } } ,
+                ids {
+                  pubmed 3020052 } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SequinCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 10 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2018 } } } } ,
+        seq-set {
+          seq {
+            id {
+              genbank {
+                name "RATPKM12" ,
+                accession "M24359" ,
+                version 1 } } ,
+            descr {
+              title "Rat pyruvate kinase M1 and M2 subunit genes, complete
+ cds" ,
+              molinfo {
+                biomol genomic } ,
+              create-date
+                std {
+                  year 2018 ,
+                  month 1 ,
+                  day 10 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 11788 ,
+              seq-data
+                ncbi2na '56A6265A8ABA22D16A6A9E8A0ED6A173037A90657ACA52A48EA91
+7A920F500EA3CEC9778AD702412BA68515AA372ABAE9A6BA158A9AB5E5D7451F553E94D20E1539
+90FFAFE43B5F594682B2D55D00A905E7ED59715E61DDD20AE6AE5EF88A6A9DE7279E568FA98AA6
+A9E68A8F9A695924B8C17E2952DE649564492615B5C2D8486D77F2B3E4128DE0B1958AE26A8817
+F94F7BA54894394CBA3472EAE9E43B4AE922529FAB93BDFCACD480258ED4AB22E6ADFEA0A4A822
+4288EE8B929EEE74A2FE028976E97803E3D0B77ACF7B8AC4D52BDD9F1D250735274B8B9F27B0B6
+C302C0240AD2849EFA8FB85EAE3C3E5E8123BD21C7BB6EB57348488288772325207AA7A809EADC
+3B49DFA822CB87F42B4176BE44BA3F4A524C87271EEEE3D4DD72BC7821D7EB8AFB0E1FE894FD0E
+D7EE403F9FEEEDFB13AE79FFF9F7ED480007EF97B0FE85F3D7BB68C8A70A0C4FCAE317405CA1FC
+0080A1FA84ABDB77E924A36FCAD3A604E30229CED2E5024AFE13EDB8CA7D523BDBB9E113C9C6E7
+7928BAA2BF5FBBA82B3BDDDCABEBB8277D0C8E925BEC209DE7C07A494ABBB3B91EA0A09C7FEF45
+0ADFE7BDBD32D12895FE543F8B2C544C1491B94A5DE2E1FB91024B7CFABC3BB09A884B75CE503A
+F4F091E5CB70F81DF40DD6A3528DD2014E54252126092A1E5F4F4854927539253A7845F5E8113B
+965E84F875915346959047A8D37B14FAE2E2EE955F64A9F797AFE029B0C14F92A705CAF78884ED
+447FC8A06CFAEC7DF791FAE2BD2AEB72E97F928B2F4A87D237FF5EE7B4751FDE483F3200E32ED7
+D7C4CC0F088B5F5F133034222F87244B2DFDE87FA0217F7703FBA2B3C0040A10A2F97F8CB248FD
+331FD7178834E3FDF5EE9DC0EFDFACA579F5637BA239E0A238F0B7A8E0EE9DA783F774E81538AE
+2E927E3528AF6A1F9E79EE7529F74B83A1BE771F13F2355DDD5DF55DE941F4FA4D0417979FED96
+94AF35714D09F452A7F7CF73B917D8E2A9EE9EDEDFA38AA7BA7B7B7EBFC14F5E886BA0E0DB2757
+6277E970F8D37FA752AE9D2A4EA07A1FABBA2045C5ED0DD57DFDDD4B14E48873420ED6E4944809
+FE4DE354F771617BE6BA77A3102A1788D687A1D342A6E2CD4A2FCADFC0E20CFFD3797ACA0F3CC8
+E44FFEB3B8304C7C2DD1DEA85EBFBEFEFFBFBF57430103D28FC480AE36BF7EA9FE2522FE26594D
+2AEFA6D44B4465DE7B7F0DC89A45922BA27820A89447823457A1065C4E882E6188135EE9E87308
+13790AEBA2BA9242371BA18EA74DD5E4AE0A202B3BBAEC4B51A54394754D5481DEB091F05C93B3
+83EB7542B402FC2BAFBEB79357A5EDE011E5E2000C840C17102973BB117715FCBD491DA83492BB
+B8BDD3BB0A1C75ECE5C838B722F77E9F7440788C8EB7E357F444AE78717AE120BA00EBA75FA924
+20A9B81797AE79EE85D5E7BB480284D4A1782FEABA24A1BA13AEFE6DFD3590A69E1B938AF282B5
+EA220A908134234D24036205382BB592B82B51D716EE5EABBA5F8A9177B4A952809DED4F7FAFB1
+F5EF7324DFDFFCD2BF8E23FE8A5263A0D3AC9DBAE17A93E23D69220ADF5C9D208E38FA18E41627
+A8252D3799454A4EE7357D7DEEF75172885EB7E17A5FCAC46C5644C9CE179B17B909F6A83E57A0
+D347823B5E77D4F3F2E1FD3F26BADDF1F0C0057EFED575C8E7A224E34209465515B9E0A4B86E94
+392D723A2787934E7B5A2012502A8715DE8A7BD939245EB8B0B5D22D7AAC822779E88A5DED4B7E
+F13E756D124288B8AFEE8BB9F8BF4FB9FD1E5E45E55FED79DEA8F132944DE9C03342B5CA392D0A
+8E5F5FBA11522A5EAC5DCF70289422FEF49CF65FBC5DD3FADD7BADE54EA439F7751E49EC94C789
+E7F09E96E4EB97B84EA1F5D5F9EE5215076A9C40C9DEAAEA83AB9C3F24AF7B7ADCA0F3021F74A4
+CF3B9DFF8F0B7DEBF4B08CAB7A6427EC3D410D03425E692823A7E23CA7A1C83884DFB20904A6D2
+E17B579A1FD454A5D6DF7BBDE75207DF5A24810F37AA4D2F2A16F978C0A4EBA3C9FFEAAFF73D5F
+F4941020512CDFFBA752FD510955501F0842E0200828255F7ABCA4DF17E7F33B3388BE2C8F538D
+FD4E8FCDE0F327B2523BF9733E0121499FE1DA7AD385EF78FA0FB87AD74C9F74C9E4A4F7754821
+FF57D7D0DD5512C9E5F5EBF1140157FDC7C5E9744BAD281287F852B3DC093B2D1303B3FFA32742
+085F9502E9AF8E23C3C43C3CCEECE2F2FFAED7B5FF74E57ADFD73812117C817629EA3E4E95E748
+238B448B5ABC87BA7155D2A3103F7734BC11F2849F755FDFCDEFE7BF5D7BB7078F4BD005EC3C02
+7213549EEBE7D7B53977ED7FA9F9793D4E7C14023C7F51F90379C39C50C0362E7AFD334F5E83E4
+777007F3F7F3F70E7EBFC7E04AEB7B33044FE735EC16FF0F3E4BF837BB7E0297BB9FD529B7975D
+13A7BD2EC5BBD0B894B6147BDEFC81FB91E41FE9DFF85745549FD227958BBF51EC250B9099D1DF
+BBB29A2FA397EC144C94EE28AA197FF7D7B09EED28A4BBAD09A0BB2FA7517E937F5394AB57F749
+FC3400402038E8EB9397247EA29E290200CBAEFF8A7853A42F4294B2B9CEB08D737405EEEABE20
+FA7FFFBFBFBFF201280D500A31CDFD482A0A0A37B5BBBF8120088945403544CC314F529FE14D79
+77B3793A208023C1708BD7D774F2F57B7F53BBEDDFBFF97D35F7D7CD7D715C05F123276229E292
+5BBD45979EFE089F9989752D0D448557A294E94EA49BA2977CC0EFC9249FE32F7868B5A4ACA95E
+2A4ACD3CC230527DD11072A547BB97897A9325DDD792829250A2B4632A4A140A3D5CBAB12E82D1
+291EBD28EBD5EE8BF70DF9D0BF4806EF2E074DFDD7A7FFB95284EF5F54BE5EE1DF75F4FEE10277
+84095ED55F5DB577A1A3BE755C8F9588A48A794DC51F92F3D8A075965E9953C5261544827965BA
+B96E8A5D7D0B9E4BAA53CDB9D142DE92B28A692E9D5EA8D52241DEA78FF0855E9E5340A1D4A091
+D52B1348F2BA752E52D2E4A5E5D2A5E0933312FF9F2F1AEE827A93AB1397F0D75493DA9208AEA4
+0EDE4F6E84B9EB710242F5284895C9D1003C1D27AC0C71F9C450BC868E8A2A202B07C909B950A1
+3312C11FFDD3547E8A89D0E8C0BBE90DE8FE8DE917BABFFBEFBFABFFBFFFFFFFF0B45E882C6F29
+7F2893AAFFAFFC23F3F3CCCE0711DD5CDF4B645208AB8F1238FBB09453BAF9EA2F81D285DE8224
+BCB9DF051E25377525247BDFD2095044C4E127447370792D7AAA0DC395DF707D496C4EFCCE393B
+AD28C54849E8A80A0AE541117BB97B0D52474EB122B202344232B70DE240F79049723120250113
+0034BBA9E28EF85FEEE0FA53813ECE49E8242A3AAE7800EA85F0070FF782D782FD889D42310BDC
+E70D7A1FDDE08BD7AF5F40953B2949C824AB3FDE5EE83A51355C317EEED7423972F0F4B0978048
+DE320B01334FE736BE2888AA75713D5028DF8FA5233C14E5EB445C8FF500053203D22BF7FC9142
+F49E3087540A24B32C777A40C7B51D4AB779231482D289CA44EB9FA3EC02F9E927128EBDEB88F2
+9489E5D1E5E3A0ABD12EEA2A35E525BAD73A879511E234A10E2F00284A12B78AABA5291C04B0FB
+0BA9017BA5C8AE0F22AE75FE9E1E02ADDB8443A53DF545F74A2E7450BA56B16542A75CD3E7B846
+435521256529537B16E937D5EE7BB0A396C7A397A9E286F8DF6EE07E94E0EFACEC9E8242A3AAE7
+A80EA89700714FD782574543FEA542900F0F974F29DFB08F0FA271E57BAAEA91109EFBADFEF5CC
+C2BE8CD088428249E15E07EA429E947722DC0783AED40AD5E4B78BFE5D257EFC272887E4517EEB
+0020B07A4179DD71783C82432A4FEF35E5EBCA7EEDEA7A8809145FBACA222C7AF9D2F287AB2A7F
+92F3550BBCCC5DC74505D7DD574A42958A7DF420A88EEB4FB9E1E8E995E9DE9F4504539BB2E5EC
+538E35DE89F77DC957B57D5755CD7353CA5241BECB9D1DEA532EE99EBA9EA114A003C3977804E4
+322549CFFD3A571F894AAE0A283928FA015DE1FCD120A924F377BBDFE75EC80BFD4883D5257A5E
+834A21242048A7AA952AF54EC8E1FFA57B5787E7F54127FA5DDD76E4751E7B57923BD4775176C7
+7926DD4A5EF9CCB951783B4301249A0617BBDFF7D7AAA6EBE29CD77892D803841697029D25E896
+2CCCAF975D412450BAA7373BBE809D1EFF3F4A121E80ADEA12BD27245EC3AEAC85A2A'H } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        rna {
+                          type mRNA } ,
+                      location
+                        mix {
+                          int {
+                            from 1799 ,
+                            to 2040 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 2507 ,
+                            to 2598 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 3025 ,
+                            to 3156 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 3429 ,
+                            to 3499 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 3955 ,
+                            to 4225 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 4350 ,
+                            to 4500 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 4725 ,
+                            to 4877 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 7572 ,
+                            to 7738 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 10189 ,
+                            to 10370 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 10925 ,
+                            to 11031 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 1 } } ,
+                      product
+                        whole
+                          local
+                            str "M1" ,
+                      location
+                        mix {
+                          int {
+                            from 1887 ,
+                            to 2040 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 2507 ,
+                            to 2598 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 3025 ,
+                            to 3156 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 3429 ,
+                            to 3615 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 3955 ,
+                            to 4225 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 4350 ,
+                            to 4500 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 4725 ,
+                            to 4877 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 7572 ,
+                            to 7738 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 10189 ,
+                            to 10370 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 10925 ,
+                            to 11031 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } } } ,
+                    {
+                      data
+                        rna {
+                          type mRNA } ,
+                      location
+                        mix {
+                          int {
+                            from 1110 ,
+                            to 3429 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 3955 ,
+                            to 4225 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 4350 ,
+                            to 4500 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 4725 ,
+                            to 4877 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 8115 ,
+                            to 8281 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 10189 ,
+                            to 10370 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 10925 ,
+                            to 11031 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 1 } } ,
+                      product
+                        whole
+                          local
+                            str "M2" ,
+                      location
+                        mix {
+                          int {
+                            from 1887 ,
+                            to 2040 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 2507 ,
+                            to 2598 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 3025 ,
+                            to 3156 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 3429 ,
+                            to 3615 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 3955 ,
+                            to 4225 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 4350 ,
+                            to 4500 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 4725 ,
+                            to 4877 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 8115 ,
+                            to 8281 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 10189 ,
+                            to 10370 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } ,
+                          int {
+                            from 10925 ,
+                            to 11031 ,
+                            strand plus ,
+                            id
+                              genbank {
+                                accession "M24359" ,
+                                version 1 } } } } } } } } ,
+          seq {
+            id {
+              local
+                str "M1" } ,
+            descr {
+              title "M2 [Rattus norvegicus]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 531 ,
+              seq-data
+                ncbieaa "MPKPDSEAGTAFIQTQQLHAAMADTFLEHMCRLDIDSAPITARNTGIICTIGP
+ASRSVEMLKEMIKSGMNVARLNFSHGTHEYHAETIKNVRAATESFASDPILYRPVAVALDTKGPEIRTGLIKGSGTAE
+VELKKGATLKITLDNAYMEKCDENILWLDYKNICKVVEVGSKIYVDDGLISLQVKEKGADYLVTEVENGGSLGSKKGV
+NLPGAAVDLPAVSEKDIQDLKFGVEQDVDMVFASFIRKAADVHEVRKVLGEKGKNIKIISKIENHEGVRRFDEILEAS
+DGIMVARGDLGIEIPAEKVFLAQKMMIGRCNRAGKPVICATQMLESMIKKPRPTRAEGSDVANAVLDGADCIMLSGET
+AKGDYPLEAVRMQHLIAREAEAAVFHRLLFEELARASSQSTDPLEAMAMGSVEASYKCLAAALIVLTESGRSAHQVAR
+YRPRAPIIAVTRNPQTARQAHLYRGIFPVLCKDAVLDAWAEDVDLRVNLAMNVGKARGFFKKGDVVIVLTGWRPGSGF
+TNTMRVVPVP" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "M2" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 530 ,
+                          id
+                            local
+                              str "M1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "M2" } ,
+            descr {
+              title "M1 [Rattus norvegicus]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 531 ,
+              seq-data
+                ncbieaa "MPKPDSEAGTAFIQTQQLHAAMADTFLEHMCRLDIDSAPITARNTGIICTIGP
+ASRSVEMLKEMIKSGMNVARLNFSHGTHEYHAETIKNVRAATESFASDPILYRPVAVALDTKGPEIRTGLIKGSGTAE
+VELKKGATLKITLDNAYMEKCDENILWLDYKNICKVVEVGSKIYVDDGLISLQVKEKGADYLVTEVENGGSLGSKKGV
+NLPGAAVDLPAVSEKDIQDLKFGVEQDVDMVFASFIRKAADVHEVRKVLGEKGKNIKIISKIENHEGVRRFDEILEAS
+DGIMVARGDLGIEIPAEKVFLAQKMMIGRCNRAGKPVICATQMLESMIKKPRPTRAEGSDVANAVLDGADCIMLSGET
+AKGDYPLEAVRMQHLIAREAEAAIYHLQLFEELRRLAPITSDPTEAAAVGAVEASFKCCSGAIIVLTKSGRSAHQVAR
+YRPRAPIIAVTRNPQTARQAHLYRGIFPVLCKDAVLDAWAEDVDLRVNLAMNVGKARGFFKKGDVVIVLTGWRPGSGF
+TNTMRVVPVP" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "M1" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 530 ,
+                          id
+                            local
+                              str "M2" } } } } } } } } } }

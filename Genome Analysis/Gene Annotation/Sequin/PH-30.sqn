@@ -1,0 +1,220 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Garcia" ,
+            first "Julie" ,
+            initials "J.P." } ,
+        affil
+          std {
+            affil "Johns Hopkins University" ,
+            div "Biotechnology" ,
+            city "Grand Junction" ,
+            sub "CO" ,
+            country "USA" ,
+            street "409 Stoneridge Ct." ,
+            email "jgarci58@jhu.edu" ,
+            phone "9077482554" ,
+            postal-code "81507" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Garcia" ,
+                  first "Julie" ,
+                  initials "J.P." } } } ,
+        affil
+          std {
+            affil "Johns Hopkins University" ,
+            div "Biotechnology" ,
+            city "Grand Junction" ,
+            sub "CO" ,
+            country "USA" ,
+            street "409 Stoneridge Ct." ,
+            postal-code "81507" } } ,
+      date
+        std {
+          year 2018 ,
+          month 1 ,
+          day 10 } } ,
+    subtype new ,
+    tool "Sequin 15.50 - MAC 386 on OS 10.6" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            genome genomic ,
+            org {
+              taxname "Cavia porcellus" ,
+              common "domestic guinea pig" ,
+              orgname {
+                lineage "cellular organisms; Eukaryota; Opisthokonta; Metazoa;
+ Eumetazoa; Bilateria; Deuterostomia; Chordata; Craniata; Vertebrata;
+ Gnathostomata; Teleostomi; Euteleostomi; Sarcopterygii; Dipnotetrapodomorpha;
+ Tetrapoda; Amniota; Mammalia; Theria; Eutheria; Boreoeutheria;
+ Euarchontoglires; Glires; Rodentia; Hystricognathi; Caviidae; Cavia; Cavia
+ porcellus" ,
+                gcode 1 ,
+                div "ROD" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Wolfsberg" ,
+                            first "T" ,
+                            initials "T.G." } } } ,
+                  affil
+                    std {
+                      affil "Johns Hopkins University" ,
+                      div "Biotechnology" ,
+                      city "Grand Junction" ,
+                      sub "CO" ,
+                      country "USA" ,
+                      street "409 Stoneridge Ct." ,
+                      postal-code "81507" } } ,
+                title "The precursor region of a protein active in sperm-egg
+ fusion contains a metalloprotease and a disintegrin domain: structural,
+ functional, and evolutionary imprlications." } } } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "PH-30" } ,
+            descr {
+              molinfo {
+                biomol mRNA } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SequinCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 1 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 10 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2018 } } } ,
+              create-date
+                std {
+                  year 2018 ,
+                  month 1 ,
+                  day 10 } } ,
+            inst {
+              repr raw ,
+              mol rna ,
+              length 3292 ,
+              seq-data
+                ncbi2na 'BA5E78A0AA889FF835F042B31D4495F4E1137F534CD00A25C9C28
+11E83E39402282D1420E8078094888D2121CA30A5494809C37F48A298B0796EACED14B1237AA70
+46EEDE2AEC0ED2089E91E3A113215449B41E35388268D4E3A5D2E2011CDDFDD25DDC480951BAFF
+93BA728B79F487E4775E3AE95469EABCB94A11FBBB4AF2E142F9FBAA12F7DD511351ED17A85AD4
+F1DF5C6032D3D5889784B42A094215AAA0A137CCEF1F310A5109278D45E0AC088873F6E8E3FD4B
+73DF1443A41B1A420115D4D91987B473829C4C8289B62F7FEEDED2E5EF4ADD2AB35E3C2881135C
+E93E254C775D526BF893BBCC453A46D09D4B75E489779408494A6BB5149E9242924A09744BB129
+1ED75C5EEAE4450B1BA23BFB6EB410526BD48EEA9263B41884B9222EBA134F95E94137F1D8A0C0
+448AEB1E9EABA2B7A162AA178C8AD52E85E62F11D281F4367A21084277E5DBB8A461BE544E36FA
+93457A22174AD293F783A25EF42EBFE49A7B609FD45182395D7B792675EB9189CA9105EACF6938
+51DA5E6DEC88C2475EDD3928033478202E9F49079277871F714FD7D381122A97973F0C25BA4409
+D92992A7946EE806BBAE8A2D2243B87BA6F07B8C6262E7B85097B0DF0A80661BB2C181DE7BDE3E
+50CC0076A73FB96D7DEEA14EE17578B1E47AD0DE80B95DC844C40423AC553B0E2A3DF7BB0B0AAE
+46857ACF439905CFFA93AE52B79548E4EF11C4F8124CA8333FA01EEB434AC3585173BEAEF4AE32
+C40BBA8074CEC4ACFDF431750D22773F9263523574E88E1EB9E893CB07FAA35E6D755448289EED
+24A46DF99F4A409BBB03952EF71FD11F8479C1ECB92780EEC3883A0FE410FCA91E51EE88EBFE75
+550790204281E8ACB3232EB557557DCB1171E45D7014150184024D0B801F24F0FA5E30FFAC31CF
+1C7DCBCFEE73797EB3179E08275D451482282092A81E8208148148148168A28A09248A2821C8B8
+C1EBA0A9025033340F5D0B8F1CA0E209D2A0900BD2EA07849DC3A7707287731DC008451EC2285C
+F5D4EFDD370B0303DFBF1724CF00107FFBFF44FC3C0F4F13933FA13C3B5F797FA9CFFFD2D14907
+BFF4A939CDF5390BFB8CECB2CFEF5E0FCF1CDCE23FD3F7CC10C133FEC28C1EF4EA1E1EFD07E973
+C2EC4F4F8B8AFF0390C3007BCF42F0000'H } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 1 } } ,
+                      product
+                        whole
+                          local
+                            str "PH-30_1" ,
+                      location
+                        int {
+                          from 338 ,
+                          to 2752 ,
+                          strand plus ,
+                          id
+                            local
+                              str "PH-30" } } } } } } ,
+          seq {
+            id {
+              local
+                str "PH-30_1" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 804 ,
+              seq-data
+                ncbieaa "MRSGSMMASVRNTISFSASLQKAHVVLHVARSLLQTCTLLMVAPRLGLVPGHL
+CVRLVTKLLVGTVLLPHIHCHLGPVHYSSYEIVIPESLTVKGSQDPGGRTSYMLLIQGHKQLIHLKVKRDYFVDDFPV
+YSYHNGNVRQETPSIARDCHYEGYIEGASSSFVSVSACSGLRGILIKENTSYGIEPILSSQRFEHVLYTMARQAPVSC
+RASAKDSQAVSTSWQQGSRKPHSVQALSSYLWVHTKYVEMFVVVNNQRFQMWGSDVNETVQRVVDIIALANIFTRGIN
+TEVVLAGVEVWTEGDLIEVPVDLRVTLRNFNRWRQDKLLPRVRHDVAHMIVGHHPGETSGQAFLNGACSSGFAAAVEA
+FHHEDALLSAALLVHELGHNLGIRHDHSACVCRDKHSCLMQENITEESGFSNCSSDYFYHFLHEHRGACLFNKPWHKA
+RRRRAATCGNGVVEESEQCDCGVNCDTSECCDQACNLKGNATCSNELCCSDCQYKNSGYLCRPSVGPCDLPEYCTGQS
+GKCPLDTYKQDGTPCNEGFFCVSKGCTDPGIQCATYFGHGARSAPDACYTTLNSIGNIFGNCGQSGNPTTYVGCSGDS
+TKCGKLICTGISSIPPIRALFAAIQIPHGDDWCWSISNFGDPASSPTEGAVSAGTSCASGKACVNAQCSTFTLDTANC
+SAAEMCNENGICNNLGHCHCGDGFAPPNCKEQGTGGSIDSGPPPPSSTPTAPPKPTQTTKASSENLALIGLIILVILL
+LLLVICAICLGIPAEEAPPPPEEEEAGELEEEPEPEPEPEEEEAAEEED" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "fertilin alpha" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 803 ,
+                          id
+                            local
+                              str "PH-30_1" } } } } } } } } } }

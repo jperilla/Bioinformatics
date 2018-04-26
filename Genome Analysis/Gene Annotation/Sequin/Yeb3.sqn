@@ -1,0 +1,211 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Garcia" ,
+            first "Julie" ,
+            initials "J.P." } ,
+        affil
+          std {
+            affil "Johns Hopkins University" ,
+            div "Biotechnology" ,
+            city "Grand Junction" ,
+            sub "CO" ,
+            country "USA" ,
+            street "409 Stoneridge Ct." ,
+            email "jgarci58@jhu.edu" ,
+            phone "9077482554" ,
+            postal-code "81507" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Garcia" ,
+                  first "Julie" ,
+                  initials "J.P." } } } ,
+        affil
+          std {
+            affil "Johns Hopkins University" ,
+            div "Biotechnology" ,
+            city "Grand Junction" ,
+            sub "CO" ,
+            country "USA" ,
+            street "409 Stoneridge Ct." ,
+            postal-code "81507" } } ,
+      date
+        std {
+          year 2018 ,
+          month 1 ,
+          day 10 } } ,
+    subtype new ,
+    tool "Sequin 15.50 - MAC 386 on OS 10.6" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            genome genomic ,
+            org {
+              taxname "Saccharomyces cerevisiae" ,
+              common "baker's yeast" ,
+              orgname {
+                lineage "cellular organisms; Eukaryota; Opisthokonta; Fungi;
+ Dikarya; Ascomycota; saccharomyceta; Saccharomycotina; Saccharomycetes;
+ Saccharomycetales; Saccharomycetaceae; Saccharomyces; Saccharomyces
+ cerevisiae" ,
+                gcode 1 ,
+                div "PLN" } } ,
+            subtype {
+              {
+                subtype chromosome ,
+                name "XVI" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Garcia" ,
+                            first "Julie" ,
+                            initials "J.P." } } } ,
+                  affil
+                    std {
+                      affil "Johns Hopkins University" ,
+                      div "Biotechnology" ,
+                      city "Grand Junction" ,
+                      sub "CO" ,
+                      country "USA" ,
+                      street "409 Stoneridge Ct." ,
+                      postal-code "81507" } } ,
+                title "Exercise 1" } } } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "Yeb3" } ,
+            descr {
+              molinfo {
+                biomol mRNA } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SequinCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 1 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 10 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2018 } } } ,
+              create-date
+                std {
+                  year 2018 ,
+                  month 1 ,
+                  day 10 } } ,
+            inst {
+              repr raw ,
+              mol rna ,
+              length 2418 ,
+              seq-data
+                ncbi2na 'FB8D03FFBB8B79FE7F7BFFFFBE1D9EF4375C7FD7FEFBC030ACF33
+3F31057300243C943F50D71821281E240730ABBDFDF7B1CCCC4FE41CEAF4EFB2F9F808F7D218A5
+2EDD143E58C3808826B87F3C72ACFE8A302143C87FC77AEB51C0A57071FEBB3D230DC0FE40A265
+9DE93D9203C7800C6D6D2B77222B1E81537C33CF102508D448F42E967EE497EAC3FA5BC30E00C0
+F3C3EE80EA29F2253C30140E3AB843B20BD0EC39EFA393C50FC9442A384301308F9C7DEB9FC3D4
+F8709C9C0D404CC22F4880E712B93CF033844F78A00C8020FAF0E4AE7B97B3EB37F1EDB51635E3
+BD2C73EC71E7F340CC92E8E09436420BE9D01E2508FAFD40FAF2DE3A3DD4DF42AC03B4271FE9FC
+601726D63109C50F203EC2A7AEAF974FEB02F8F40B8F73147AFFA72EE9393C804FDCF45770382B
+F0FBE392BF7C014F2C23EFA1CC28F48203D0ED196CDC7F880FE9E4D37800048022F7D80BAE7B60
+03B0A07A7723D17BCBBD02E03F593BFE73FC95C923B7503E8DC7A090337C8E7F0D5CE1FFD52050
+82FDEB0E79E79FE90373BD08B830F31003CF824EA36D60E0A4F6E8FDE3C8FFE00B8739C5FE044F
+99CE843FC43E7202D30E302E823FAF0038E184D3C1A2E2003A48EE17F89BF10234A0F8EF0035AA
+241043509D838C104B0C10E1128DE04D05EC8A390BFA0FB30CF1D048FF10FFC4F8FF7D009A8729
+3CC3FF3403FDF7482FF3FDFDDD4FDF537FF0DFEFD7FFF134CF1F7171DC773DC3F43E3FFFCFF3FF
+FFFBC300820007C0060C229EDFEF5B2CCE5CFD7DC82FE0BB6C0FF171A30EF6F13EF83A41ECB8AC
+3BD002E2026A220A9C4C40050F72304DCCDF6FFC8333EC300443E30C400000000'H } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 1 } } ,
+                      product
+                        whole
+                          local
+                            str "Yeb3_1" ,
+                      location
+                        int {
+                          from 217 ,
+                          to 1953 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Yeb3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Yeb3_1" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 578 ,
+              seq-data
+                ncbieaa "MGSCCSCLKDSSDEASVSPIADNEREAVTLLLGYLEDKDQLDFYSGGPLKALT
+TLVYSDNLNLQRSAALAFAEITEKYVRQVSREVLEPILILLQSQDPQIQVAACAALGNLAVNNENKLLIVEMGGLEPL
+INQMMGDNVEVQCNAVGCITNLATRDDNKHKIATSGALIPLTKLAKSKHIRVQRNATGALLNMTHSEENRKELVNAGA
+VPVLVSLLSSTDPDVQYYCTTALSNIAVDEANRKKLAQTEPRLVSKLVSLMDSPSSRVKCQATLALRNLASDTSYQLE
+IVRAGGLPHLVKLIQSDSIPLVLASVACIRNISIHPLNEGLIVDAGFLKPLVRLLDYKDSEEIQCHAVSTLRNLAASS
+EKNRKEFFESGAVEKCKELALDSPVSVQSEISACFAILALADVSKLDLLEANILDALIPMTFSQNQEVSGNAAAALAN
+LCSRVNNYTKIIEAWDRPNEGIRGFLIRFLKSDYATFEHIALWTILQLLESHNDKVEDLVKNDDDIINGVRKMADVTF
+ERLQRSGIDVKNPGSNNNPSSNDNNSNNNDTGSEHQPVEDASLELYNITQQILQFLH" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Yep3p" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 577 ,
+                          id
+                            local
+                              str "Yeb3_1" } } } } } } } } } }

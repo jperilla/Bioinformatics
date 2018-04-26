@@ -1,0 +1,53 @@
+LOCUS       Gallus                  1352 bp    mRNA    linear   VRT 11-JAN-2018
+DEFINITION  gallus interleukin 1 receptor variant 2, mRNA.
+ACCESSION
+VERSION
+KEYWORDS    .
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            cellular organisms; Eukaryota; Opisthokonta; Metazoa; Eumetazoa;
+            Bilateria; Deuterostomia; Chordata; Craniata; Vertebrata;
+            Gnathostomata; Teleostomi; Euteleostomi; Sarcopterygii;
+            Dipnotetrapodomorpha; Tetrapoda; Amniota; Sauropsida; Sauria;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes;
+            Phasianidae; Phasianinae; Gallus; Gallus gallus.
+REFERENCE   1  (bases 1 to 1352)
+  AUTHORS   Garcia,J.P.
+  TITLE     Exercise 1
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1352)
+  AUTHORS   Garcia,J.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JAN-2018) Biotechnology, Johns Hopkins University,
+            409 Stoneridge Ct., Grand Junction, CO 81507, USA
+FEATURES             Location/Qualifiers
+     source          1..1352
+                     /organism="Gallus gallus"
+                     /mol_type="mRNA"
+BASE COUNT      416 a    258 c    296 g    382 t
+ORIGIN
+        1 agaagccagt taaaaagcat tcccagtagt ctggtacaag gaaaggactc agcccagtgc
+       61 aaagcatttc tctactgcgt gaatttccag aggaaatatg atggtgtatg tacatttgat
+      121 cttcctatct gtcttcctcc cggtttccgt gatatcagaa tcatacgata caatggaagg
+      181 tgaggcttta gttgtcagat gtccccacag tgttttatct gcaaaagtca cctggcatca
+      241 cacaggcaca aggaaaagaa ttcctgaaga agaagaggga tcacgagtat tttcaaaagg
+      301 aatatttctt tggtttctgc caacttcttt agaggattct ggaaactaca cctgtgttat
+      361 aaattatcca gatgggagca agaaagagcg caaaatgaat gtacaggtgc atccatacaa
+      421 gcaagggacg tgtttcccca gccggatact ttatgcaaat gaaactagaa aaggaaaaat
+      481 ttcttgccct acatttagga attatgagaa tgctactatc atccagtggt ataaggactg
+      541 cagacctata cagggagaaa gatatttcat gcatgatcct tatattttta ttgaaaacct
+      601 gaataaggag gatgatggct attatacttg tcaatttact tatactcaca gaggaagggt
+      661 gttcaatgta tcagcaacaa ggatctttgt aagtgaagca aagcactcat ccctacctgt
+      721 tcaaatttta tttccaaaag atgaagacgt tttagaagtg gagcttggtg ctgctttttc
+      781 tctgaaatgt caggcccggc tggggattaa gaaacagcct atagctgttg tcacgtggga
+      841 tgtgaataaa atgccagcag aatatgcaga tgaagaaaaa atccgtcaag aatttagtta
+      901 ttttgaagga caacaccaag agtactatgg agaggcaact ttgaccatta gtaacataga
+      961 acatacggat ttgcagtcca gtttctcatg tgtagcgatg aacgaaatgg gaaacacaag
+     1021 gaccacagtg acgttacggc tcaaaaaaaa atgtcctcag taaatgttca ggaaagctct
+     1081 ttgttgctgc ctgtgttgtg tggatgtcta tccccttctc cctgttgctg ctactgtcaa
+     1141 gatgcctgct tctgctgctc gtgactgtcg gtgtgagcaa ggctaaatac agaaatggca
+     1201 gcgctctgct ttagttgtct ttatttgctc ctcacagacc agcaatgttt gtgctaaaac
+     1261 aacgatagct tgcctctgag taaaataaaa atgcctcagg gattccttgt gcctcacatc
+     1321 ttgtagatgt ataataaaaa tgtgtactct tc
+//

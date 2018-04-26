@@ -1,0 +1,48 @@
+Command:  glimmer3 -o 50 -g 110 -t 30 halan.fasta hprev.icm halan
+
+Sequence file = halan.fasta
+Number of sequences = 1
+ICM model file = hprev.icm
+Excluded regions file = none
+List of orfs file = none
+Input is NOT separate orfs
+Independent (non-coding) scores are used
+Circular genome = true
+Truncated orfs = false
+Minimum gene length = 110 bp
+Maximum overlap bases = 50
+Threshold score = 30
+Use first start codon = false
+Start codons = atg,gtg,ttg
+Start probs = 0.600,0.300,0.100
+Stop codons = taa,tag,tga
+GC percentage = 35.4%
+Ignore score on orfs longer than 503
+
+
+>Halanaerobium sp. MDAL1, whole genome shotgun sequence
+Sequence length = 6000
+
+           ----- Start -----           --- Length ----  ------------- Scores -------------
+ ID  Frame   of Orf  of Gene     Stop   of Orf of Gene      Raw InFrm F1 F2 F3 R1 R2 R3 NC
+        -1      312      249      133      177     114    -7.16     0  -  - 99  0  -  -  0
+0001    +3     5976      171      350      372     177    12.18    99  -  - 99  -  -  -  0
+0002    -2      370      358      206      162     150    -0.41    35  -  -  -  - 35  - 64
+        -1      657      570      406      249     162   -11.91     0 99  -  -  0  -  -  0
+        -3      794      794      651      141     141     4.32     0 99  -  -  -  -  0  0
+        -1      948      894      754      192     138   -16.07     0 99  -  -  0  -  -  0
+        +2      779      812      955      174     141    -6.58     0 99  0  -  -  -  -  0
+        -3     1118     1082      906      210     174    -1.09     0 99  -  -  -  -  0  0
+        -1     1194     1194     1030      162     162   -16.97     0 99  -  -  0  -  -  0
+0003    +1      331      343     1626     1293    1281     9.10    99 99  -  -  -  -  -  0
+        -3     2021     2015     1896      123     117   -17.73     0  -  - 99  -  -  0  0
+        -2     3187     3109     2855      330     252     0.05     0  -  - 99  -  0  -  0
+        -1     3504     3477     3364      138     111    -7.86     0  -  - 99  0  -  -  0
+        -2     3850     3838     3650      198     186    -4.62     0  -  - 99  -  0  -  0
+        -2     4159     4138     3959      198     177    -3.46     0  -  - 99  -  0  -  0
+        -2     4690     4573     4448      240     123     4.92     0  -  - 99  -  0  -  0
+0004    +3     1623     1629     4733     3108    3102     6.60    99  -  - 99  -  -  -  0
+        +1     5341     5356     5472      129     114     6.16     0  0  -  -  -  - 99  0
+        +2     5399     5426     5572      171     144     1.31     0  -  0  -  -  - 99  0
+0005    -3     5786     5786     4971      813     813     8.23    99  -  -  -  -  - 99  0
+        +2     5582     5744     5863      279     117    -3.50     1  -  1  -  -  -  - 98

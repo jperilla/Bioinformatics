@@ -1,0 +1,141 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Garcia" ,
+            first "Julie" ,
+            initials "J.P." } ,
+        affil
+          std {
+            affil "Johns Hopkins University" ,
+            div "Biotechnology" ,
+            city "Grand Junction" ,
+            sub "CO" ,
+            country "USA" ,
+            street "409 Stoneridge Ct." ,
+            email "jgarci58@jhu.edu" ,
+            phone "9077482554" ,
+            postal-code "81507" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Garcia" ,
+                  first "Julie" ,
+                  initials "J.P." } } } ,
+        affil
+          std {
+            affil "Johns Hopkins University" ,
+            div "Biotechnology" ,
+            city "Grand Junction" ,
+            sub "CO" ,
+            country "USA" ,
+            street "409 Stoneridge Ct." ,
+            postal-code "81507" } } ,
+      date
+        std {
+          year 2018 ,
+          month 1 ,
+          day 11 } } ,
+    subtype new ,
+    tool "Sequin 15.50 - MAC 386 on OS 10.6" } ,
+  data
+    entrys {
+      seq {
+        id {
+          local
+            str "Gallus" } ,
+        descr {
+          title "gallus interleukin 1 receptor variant 2, mRNA" ,
+          source {
+            genome genomic ,
+            org {
+              taxname "Gallus gallus" ,
+              common "chicken" ,
+              orgname {
+                lineage "cellular organisms; Eukaryota; Opisthokonta; Metazoa;
+ Eumetazoa; Bilateria; Deuterostomia; Chordata; Craniata; Vertebrata;
+ Gnathostomata; Teleostomi; Euteleostomi; Sarcopterygii; Dipnotetrapodomorpha;
+ Tetrapoda; Amniota; Sauropsida; Sauria; Archelosauria; Archosauria;
+ Dinosauria; Saurischia; Theropoda; Coelurosauria; Aves; Neognathae;
+ Galloanserae; Galliformes; Phasianidae; Phasianinae; Gallus; Gallus gallus" ,
+                gcode 1 ,
+                div "VRT" } } } ,
+          molinfo {
+            biomol mRNA } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Garcia" ,
+                            first "Julie" ,
+                            initials "J.P." } } } ,
+                  affil
+                    std {
+                      affil "Johns Hopkins University" ,
+                      div "Biotechnology" ,
+                      city "Grand Junction" ,
+                      sub "CO" ,
+                      country "USA" ,
+                      street "409 Stoneridge Ct." ,
+                      postal-code "81507" } } ,
+                title "Exercise 1" } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SequinCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 11 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2018 } } } ,
+          create-date
+            std {
+              year 2018 ,
+              month 1 ,
+              day 11 } } ,
+        inst {
+          repr raw ,
+          mol rna ,
+          length 1352 ,
+          seq-data
+            ncbi2na '2094BC0093D52CB7AC4280A1D254B9024FDDC79B83F52280CE3AECEC4
+FE37D737B7D756BF5B8CD20D318C43A0AE29FCBED23B5512EFF37900B45E93444A4428020F5E08
+208A8D18B3FD00A0CFDFEBF7941F7F228F7A01C45EEF303CD48EA242022640383B12B93531090A
+86EFD54968C7F3903807200A003F7E5713F283CE20E71CD352EB30A1E485CC4A8808CFD3938D7C
+CFFCF8017830A28E3A73CC7ED0FC7CC7448A0ABBD0ECD2410A37FB0B824091D35717BD03FCFD40
+23821BFC82E89FAE79FFDDE03B4A569EA8F080497327BED1BA8EE0C0394920CE48E080035B420F
+CBCFF828411422C73A22907F853CB04C8131A3F92D4BF74EEC98E0603A804428512E1BC69D0000
+3B5D2C0EF4A0277FBE797BBEEE8EDCD57DD5EF9E71ED08E5E7DE79DB87B6BB890A7031203A499D
+E7F2FB7F3F9D74485243BFB9C0106327E5DE2C03003974A8F5FB9744DFB23B30C00EEC77D'H } } } }
